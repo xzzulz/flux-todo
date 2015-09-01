@@ -27,8 +27,8 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="13.30276"
-     inkscape:cx="-0.63765233"
+     inkscape:zoom="15.803407"
+     inkscape:cx="-11.774492"
      inkscape:cy="11.077372"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -72,14 +72,18 @@
        y="3.0786088" />
     <g
        id="g4524"
-       transform="matrix(1.3029647,0,0,1.3025798,-1.0095216,-1.685943)">
+       transform="matrix(1.3029647,0,0,1.3025798,-1.0095216,-1.685943)"
+       style="fill:#73c388;fill-opacity:1"
+       inkscape:export-filename="/home/nzonbi/source/react/flux-todo/design/img/add.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <rect
          y="10.816503"
          x="3.3321426"
          height="4.1066294"
          width="18.424026"
          id="rect4481"
-         style="color:#000000;fill:#6d73e5;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+         style="color:#000000;fill:#73c388;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
       <rect
          ry="0"
          transform="matrix(0,1,-1,0,0,0)"
@@ -88,7 +92,7 @@
          height="4.1066294"
          width="18.424026"
          id="rect4481-8"
-         style="color:#000000;fill:#6d73e5;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+         style="color:#000000;fill:#73c388;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     </g>
   </g>
 </svg>

@@ -11,46 +11,49 @@ body {
 }
 
 #top {
-    margin: 20px;
+    margin: 0px;
     padding: 2px 20px;
-    background-color: #6d73e5;
+    background-color: #73c388;
     text-align: center;
 }
 
 #newItem {
     margin-left: 35px;
-    width: 85%;
+    width: 75%;
     font-size: 1em;
 }
 
 #addIcon {
-    vertical-align: middle;
-    margin-left: 4%;
+    position: absolute;
+    right: 20px;
+    top: 20px;
 }
 
 div.item {
-    margin: 20px;
+    margin: 0px;
     padding: 20px;
     background-color: #ffffff;
+    border: solid 1px #C4D9DE;
     overflow: auto;
+    position: relative;
 }
 
 div.itemIcon {
-    float: left;
-    width: 40px;
+    position: absolute;
+    left: 20px;
 }
 
 div.itemText {
-    float: left;
-    width: 630px;
+    padding: 0 40px;
+
 }
 
 div.itemClose {
-    float: left;
-    width: 25px;
-    padding-left: 25px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
 }
-
+/*
 @media all and (max-width: 800px) {
     div.itemText {
         width: 78%;
@@ -62,4 +65,4 @@ div.itemClose {
         width: 76%;
     }
 }
-
+*/

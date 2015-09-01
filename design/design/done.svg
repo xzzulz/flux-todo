@@ -15,7 +15,7 @@
    version="1.1"
    inkscape:version="0.48.4 r9939"
    sodipodi:docname="done.svg"
-   inkscape:export-filename="/home/nzonbi/source/react/start/template/img/done.png"
+   inkscape:export-filename="/home/nzonbi/source/react/flux-todo/design/img/done.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -27,7 +27,7 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="13.30276"
+     inkscape:zoom="15.803407"
      inkscape:cx="-0.56247995"
      inkscape:cy="11.077372"
      inkscape:current-layer="layer1"
@@ -69,15 +69,18 @@
        height="23.998764"
        x="3.3321426"
        y="3.0786088" />
+    <rect
+       style="color:#000000;fill:none;stroke:#9a9a9a;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3856-9"
+       width="22.005856"
+       height="21.998764"
+       x="4.3321428"
+       y="4.078609" />
     <path
-       sodipodi:type="arc"
-       style="color:#000000;fill:#6d73e5;stroke:#6d73e5;stroke-width:2.70026088000000009;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;fill-opacity:1"
-       id="path3788-0"
-       sodipodi:cx="549.422"
-       sodipodi:cy="336.02673"
-       sodipodi:rx="14.849242"
-       sodipodi:ry="14.849242"
-       d="m 564.27124,336.02673 c 0,8.20101 -6.64823,14.84925 -14.84924,14.84925 -8.20101,0 -14.84925,-6.64824 -14.84925,-14.84925 0,-8.20101 6.64824,-14.84924 14.84925,-14.84924 8.20101,0 14.84924,6.64823 14.84924,14.84924 z"
-       transform="matrix(0.74077855,0,0,0.74055973,-391.66487,-233.76165)" />
+       style="color:#000000;fill:#73c388;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 21.906755,8.2479582 -9.532708,9.5296378 -3.8338132,-3.832569 -2.7976412,2.79674 3.8338037,3.832579 2.7976507,2.796739 12.33036,-12.326387 z"
+       id="rect3894"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccc" />
   </g>
 </svg>

@@ -27,8 +27,8 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="13.30276"
-     inkscape:cx="-0.63765233"
+     inkscape:zoom="15.803407"
+     inkscape:cx="-11.774492"
      inkscape:cy="11.077372"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -72,7 +72,11 @@
        y="3.0786088" />
     <g
        id="g4440"
-       transform="matrix(1.0400267,0,0,1.0400267,-0.48017991,-0.75988757)">
+       transform="matrix(1.0400267,0,0,1.0400267,-0.48017991,-0.75988757)"
+       style="fill:#d4a300;fill-opacity:1"
+       inkscape:export-filename="/home/nzonbi/source/react/flux-todo/design/img/delete.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <rect
          transform="matrix(-0.70704431,0.70716924,-0.70693503,-0.70727849,0,0)"
          y="-22.516973"
@@ -80,7 +84,7 @@
          height="1.9972941"
          width="30.632694"
          id="rect3764"
-         style="color:#000000;fill:#6d73e5;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+         style="color:#000000;fill:#d4a300;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
       <rect
          transform="matrix(-0.70716924,-0.70704431,0.70727849,-0.70693503,0,0)"
          y="-1.018343"
@@ -88,7 +92,7 @@
          height="1.9972941"
          width="30.632694"
          id="rect3764-5"
-         style="color:#000000;fill:#6d73e5;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+         style="color:#000000;fill:#d4a300;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     </g>
   </g>
 </svg>

@@ -53,16 +53,10 @@ div.itemClose {
     right: 20px;
     top: 20px;
 }
-/*
-@media all and (max-width: 800px) {
-    div.itemText {
-        width: 78%;
-    }
-    #box {
-        max-width: 96%;
-    }
-    #newItem {
-        width: 76%;
-    }
+div.footer {
+  margin: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  position: relative;
+  text-align: center;
 }
-*/

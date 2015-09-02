@@ -1,0 +1,30 @@
+{
+  "name": "flux-todo",
+  "version": "0.1.0",
+  "description": "Todo app implemented with Flux React for learning",
+  "main": "index.js",
+  "dependencies": {
+    "es6-promise": "^3.0.2",
+    "object-assign": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nzonbi/flux-todo.git"
+  },
+  "keywords": [
+    "flux",
+    "react",
+    "todo",
+    "app"
+  ],
+  "author": "nzonbi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nzonbi/flux-todo/issues"
+  },
+  "homepage": "https://github.com/nzonbi/flux-todo#readme"
+}

@@ -29,6 +29,14 @@ body {
   top: 20px;
 }
 
+div.newItemBox {
+  margin: 0px;
+  padding: 20px;
+  background-color: #ffffff;
+  overflow: auto;
+  position: relative;
+}
+
 div.item {
   margin: 0px;
   padding: 20px;

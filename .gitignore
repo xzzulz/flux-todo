@@ -1,2 +1,2 @@
-.npmignore
 node_modules
+app/js/lib

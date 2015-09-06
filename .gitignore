@@ -1,2 +1,4 @@
 node_modules
 app/js/lib
+app/js/bundle.js
+app/js/compJs

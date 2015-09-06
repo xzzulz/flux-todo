@@ -4,8 +4,8 @@
   "description": "Todo app implemented with Flux React for learning",
   "main": "index.js",
   "dependencies": {
-    "es6-promise": "^3.0.2",
-    "object-assign": "^4.0.1"
+    "flux": "^2.1.1",
+    "react": "^0.13.3"
   },
   "devDependencies": {},
   "scripts": {

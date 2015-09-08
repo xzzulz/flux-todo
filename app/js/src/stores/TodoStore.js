@@ -77,7 +77,7 @@ class TodoStore extends Store {
 
   // react to dispatched action from the dispatcher
   __onDispatch(action) {
-    switch(action.actionType) {
+    switch(action.type) {
 
       case actionTypes.TODO_CREATE:
         createTodo(action)
@@ -94,7 +94,7 @@ class TodoStore extends Store {
         this.__emitChange()
         break
 
-      case actionTypes.TODO_REMOVE_ALL:
+      case actionTypes.TODO_REMOVE_ALL_COMPLETED:
         removeAllCompleted()
         this.__emitChange()
         break

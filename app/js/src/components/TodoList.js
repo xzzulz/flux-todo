@@ -1,30 +1,36 @@
+import React from 'react';
+import actions from '../actions/actions.js'
+import todoStore from '../stores/TodoStore.js'
+import TodoItem from '../components/TodoItem.js'
+
 
 
 var TodoList = React.createClass({
-  render: () => {
-    return (
-      <div>
-        <div className="item">
-          <div className="itemIcon"><img className="todoCheck" src="img/todo.png"/></div>
-          <div className="itemText"><span>abcdef ghijkl mnopqr </span></div>
-          <div className="itemClose"><img className="todoClose" src="img/delete.png"/></div>
-        </div>
 
-        <div className="item">
-          <div className="itemIcon"><img className="todoCheck" src="img/todo.png"/></div>
-          <div className="itemText"><span>abcdef ghijkl mnopqr </span></div>
-          <div className="itemClose"><img className="todoClose" src="img/delete.png"/></div>
-        </div>
+  getInitialState: function() {
+    return { todoList: todoStore.getTodos() }
+  },
 
-        <div className="item">
-          <div className="itemIcon"><img className="todoCheck" src="img/todo.png"/></div>
-          <div className="itemText"><span>abcdef ghijkl mnopqr </span></div>
-          <div className="itemClose"><img className="todoClose" src="img/delete.png"/></div>
-        </div>
+  _onStoreUpdate: function() {
+    this.setState({ todoList: todoStore.getTodos() })
+  },
 
-      </div>
-    )
-  }
+  componentDidMount: function() {
+    todoStore.addListener(this._onStoreUpdate);
+  },
+
+  _todosAsJsxItemsArray: function() {
+    var todoList = this.state.todoList
+    return Object.keys(this.state.todoList)
+      .sort((a, b) => a < b)
+      .map(function(key) {
+        return (
+          <TodoItem item={todoList[key]} key={'item' + key}/>
+        )
+    })
+  },
+
+  render: function() { return <div>{this._todosAsJsxItemsArray()}</div> }
 })
 
 export { TodoList as default }

@@ -4,7 +4,7 @@
 # es6 files on js/src are compiled into js/compJs
 # then bundled into js/bundle.js with browserify
 
-# make the dir where the script is the current dir
+# make the dir where the script is the current dir, then up one directory.
 cd "$(dirname "$0")/.."
 
 

@@ -1,6 +1,9 @@
+import React from 'react';
 import TodoHeader from "./components/TodoHeader.js"
 import TodoList from "./components/TodoList.js"
 import TodoFooter from "./components/TodoFooter.js"
+
+
 
 React.render(
   <TodoHeader />,

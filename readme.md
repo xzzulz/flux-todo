@@ -2,6 +2,8 @@
 
 React-Flux demo app, a todo-tasks list.
 
+The app can be seen in action here: [flux-todo](http://nzonbi.github.io/flux-todo/)
+
 ## Features
 
 * Written in ES6, transpiled to vanilla js with babel.
